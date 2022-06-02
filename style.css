@@ -1,0 +1,75 @@
+html{
+    
+    background-image: url(https://cdn.pixabay.com/photo/2016/07/05/16/53/leaves-1498985__340.jpg);
+}
+body{
+    display: flex;
+     flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    min-height: 150px;
+    width: 400px;
+    background-color:#fff;
+    margin-left: 450px;
+    padding: 20px;
+    height: 650px;
+    border-radius: 20px;
+}
+.container{
+    padding: 50px;
+    background-color: #fff;
+    border-radius: 10px;
+    width:100%
+}
+#heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font: weight 100px;;
+    text-transform: capitalize;
+}
+input{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 5px ;
+    outline:none;
+    border:none;
+    border-bottom: 1px solid black;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100%;
+    padding: 10px;
+}
+
+#number
+{
+    width:75%;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:35px;
+    border:none;
+    border-radius: 20px;
+    background-color: black;
+    color: #fff;
+    transition: ease-in-out;
+    cursor:pointer;
+    padding: 10px;
+    width:50%;
+    margin-left: 68px;
+}
+button:hover{
+    background-color:white;
+    color: black;
+}
+footer{
+    display:flex;
+    place-content: center;
+    cursor: pointer;
+    padding-top: 10px;
+}
